@@ -21,3 +21,9 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   end
 end
+
+def take_a_number(array)
+  array << name
+  puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line."
+end
+
