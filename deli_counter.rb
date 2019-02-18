@@ -22,8 +22,13 @@ def now_serving(array)
   end
 end
 
+$counter = 0
+
 def take_a_number(array)
-  array << name
-  puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line."
+  
+  $counter += 1
+  array << $counter
+  puts "#{$counter}"
+
 end
 
